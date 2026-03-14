@@ -59,7 +59,7 @@ UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/SilentXBotz
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-100") # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-100')
 
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002074744533'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002074744533'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
@@ -68,17 +68,17 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/SilentXBotz")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/SilentXBotz")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/SilentXBotz")
 
-SHORTENER_API = environ.get("SHORTENER_API", "")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
+SHORTENER_API = environ.get("SHORTENER_API", "https://arolinks.com")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "400943cae6dd48a8143eba5a5f055d4bad4c92f8")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "https://arolinks.com")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "400943cae6dd48a8143eba5a5f055d4bad4c92f8")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "https://arolinks.com")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "400943cae6dd48a8143eba5a5f055d4bad4c92f8")
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "1200"))
 
 MOVIE_UPDATE_NOTIFICATION = bool(environ.get("MOVIE_UPDATE_NOTIFICATION", True))
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
